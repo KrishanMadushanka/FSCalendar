@@ -9,6 +9,11 @@
     "start": "react-native start",
     "test": "jest"
   },
+  "codegenConfig": {
+    "name": "NativeFSCalendarSpec",
+    "type": "components",
+    "jsSrcsDir": "./"
+  },
   "dependencies": {
     "react": "19.1.1",
     "react-native": "0.82.1",

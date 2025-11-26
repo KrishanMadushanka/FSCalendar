@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0824DA492ECEC36B00E9CFD7 /* RNFSCalendarViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0824DA482ECEC36800E9CFD7 /* RNFSCalendarViewManager.m */; };
+		0824DA4C2ECECC2300E9CFD7 /* RNFSCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0824DA4B2ECECC2000E9CFD7 /* RNFSCalendarView.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-TurboModules.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-TurboModules.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
@@ -15,6 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0824DA472ECEC35300E9CFD7 /* RNFSCalendarViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNFSCalendarViewManager.h; sourceTree = "<group>"; };
+		0824DA482ECEC36800E9CFD7 /* RNFSCalendarViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNFSCalendarViewManager.m; sourceTree = "<group>"; };
+		0824DA4A2ECECC0700E9CFD7 /* RNFSCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNFSCalendarView.h; sourceTree = "<group>"; };
+		0824DA4B2ECECC2000E9CFD7 /* RNFSCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNFSCalendarView.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* TurboModules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurboModules.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TurboModules/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TurboModules/Info.plist; sourceTree = "<group>"; };
@@ -39,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0824DA432ECEC1BA00E9CFD7 /* NativeFSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				0824DA4B2ECECC2000E9CFD7 /* RNFSCalendarView.m */,
+				0824DA4A2ECECC0700E9CFD7 /* RNFSCalendarView.h */,
+				0824DA482ECEC36800E9CFD7 /* RNFSCalendarViewManager.m */,
+				0824DA472ECEC35300E9CFD7 /* RNFSCalendarViewManager.h */,
+			);
+			path = NativeFSCalendar;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* TurboModules */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +87,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				0824DA432ECEC1BA00E9CFD7 /* NativeFSCalendar */,
 				13B07FAE1A68108700A75B9A /* TurboModules */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -131,7 +149,7 @@
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1610;
 					};
 				};
 			};
@@ -247,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+				0824DA492ECEC36B00E9CFD7 /* RNFSCalendarViewManager.m in Sources */,
+				0824DA4C2ECECC2300E9CFD7 /* RNFSCalendarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

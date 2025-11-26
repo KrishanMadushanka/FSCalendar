@@ -4,6 +4,7 @@ PODS:
   - fast_float (8.0.0)
   - FBLazyVector (0.82.1)
   - fmt (11.0.2)
+  - FSCalendar (2.8.4)
   - glog (0.3.5)
   - hermes-engine (0.82.1):
     - hermes-engine/Pre-built (= 0.82.1)
@@ -2417,6 +2418,7 @@ DEPENDENCIES:
   - fast_float (from `../node_modules/react-native/third-party-podspecs/fast_float.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - fmt (from `../node_modules/react-native/third-party-podspecs/fmt.podspec`)
+  - FSCalendar
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - hermes-engine (from `../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
@@ -2491,6 +2493,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - FSCalendar
     - SocketRocket
 
 EXTERNAL SOURCES:
@@ -2650,6 +2653,7 @@ SPEC CHECKSUMS:
   fast_float: b32c788ed9c6a8c584d114d0047beda9664e7cc6
   FBLazyVector: 0aa6183b9afe3c31fc65b5d1eeef1f3c19b63bfa
   fmt: a40bb5bd0294ea969aaaba240a927bd33d878cdd
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
   glog: 5683914934d5b6e4240e497e0f4a3b42d1854183
   hermes-engine: 273e30e7fb618279934b0b95ffab60ecedb7acf5
   RCT-Folly: 59ec0ac1f2f39672a0c6e6cecdd39383b764646f
@@ -2716,11 +2720,11 @@ SPEC CHECKSUMS:
   React-utils: a9abebe9dc25642955b5d2cec8c16bbf55a1bc52
   React-webperformancenativemodule: 85dce57a9e73457a3686aee0d8e929518713fc05
   ReactAppDependencyProvider: cc2795efe30a023c3a505676b9c748b664b9c0a1
-  ReactCodegen: 897bad2d2f722ff4dc46fc144f9cc018db0e2ce4
+  ReactCodegen: c3ff1787d3fdbd111797f7e9450d237e6a4e795d
   ReactCommon: c5803af00bd3737dc1631749b1f1da5beba5b049
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: 8e01cef9947ca77f0477a098f0b32848a8e448c6
 
-PODFILE CHECKSUM: bc500d10ece028f4cc09211e414b46071056503f
+PODFILE CHECKSUM: 164a1f79a50e3cafe5f094395d992280b234884a
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
